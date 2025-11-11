@@ -1,6 +1,6 @@
 ## Python Scripts
 
-A collection of small, beginner-friendly Python scripts for learning and experimenting with basic programming concepts. I wrote a few of these script during the CS50P course and purely for educational purpose, while a few demonstrate offensive-security concepts for learning defensive and testing skills. Use responsibly.
+A collection of small, beginner-friendly Python scripts for learning and experimenting with basic programming concepts. I wrote these scripts during the CS50P course to practice Python. I
 
 ---
 
@@ -16,9 +16,39 @@ Each file is self-contained — you can run them individually without extra setu
 
 ---
 
+## Getting started
+
+ **Prereuisites**
+ ```
+ python3 --version
+ ```
+
+ **Use a virtual environment to avoid Global conflict**
+ ```
+ # Unix/Linux/macOS
+ python3 -m venv .venv
+ source .venv/bin/activate
+
+ # Windwos (PowerShell)
+ python3 -m venv .venv
+ .\.venv\Scripts\Activate.ps1
+ ```
+
+ ---
+
+## How to run a script
+
+```
+python3 <script.py>
+```
+
+---
+
 ## Important
 
-**Do NOT use any script in this repository on systems you do not own or on which you do not have explicit, written permission to test.** The offensive-security example scripts are provided **for educational purposes only** (learning, research, or to test defences in environments you control).
+**Do NOT use any script in this repository on systems you do not own or on which you do not have explicit, written permission to test.** The offensive-security example scripts are provided **for educational purposes only**.
 
+---
 
-
+## Licence
+Under the MIT Licence.
